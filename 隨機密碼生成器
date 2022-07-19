@@ -1,0 +1,10 @@
+import random
+import string
+p=str(input('是否要標點符號?(y/n)'))
+length=int(input('位數為何?'))
+if str(p)==str(y):
+  total = string.ascii_letters + string.digits + string.punctuation
+else:
+  total = string.ascii_letters + string.digits + string.punctuation
+password = "".join(random.sample(total,length))
+print('亂數密碼='+password)
